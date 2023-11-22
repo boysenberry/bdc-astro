@@ -2,35 +2,25 @@
 const profilePicture = '/images/BoysenberryWithPlants.png';
 ---
 
-<html lang='en'>
-  <head>
-    <meta charset='utf-8' />
-    <link rel='icon' type='image/svg+xml' href='/favicon.svg' />
-    <meta name='viewport' content='width=device-width' />
-    <meta name='generator' content='{Astro.generator}' />
-    <title>Astro</title>
-  </head>
-  <body>
-    <h1>Astro</h1>
-    <div class='profile'>
-      <img
-        alt="Boysenberry Payne's Website"
-        width='100px'
-        height='100px'
-        class='profile__picture'
-        src={profilePicture}
-      />
-      <div class='profile__details'>
-        <h1>Boysenberry Payne</h1>
-        <h2>Software Developer at Cordant Health Solutions</h2>
-        <p>
-          Maintaining and developing Sentry a drug testing management system as
-          well as database development and server administration.
-        </p>
-      </div>
-    </div>
-  </body>
-</html>
+<h1>Astro</h1>
+<div class='profile'>
+  <img
+    alt="Boysenberry Payne's Website"
+    width='100px'
+    height='100px'
+    class='profile__picture'
+    src={profilePicture}
+  />
+  <div class='profile__details'>
+    <h1>Boysenberry Payne</h1>
+    <h2>Software Developer at Cordant Health Solutions</h2>
+    <p>
+      Maintaining and developing Sentry a drug testing management system as well
+      as database development and server administration.
+    </p>
+  </div>
+</div>
+
 <style>
   .profile {
     display: flex;
